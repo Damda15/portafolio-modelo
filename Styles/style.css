@@ -45,11 +45,13 @@ body{
     /*margin: 5%;*/
     padding: 5% 10%;
     justify-content: space-between;
+    gap: 82px;
+    
 
 }
 
 .presentacion-contenido{
-    width: 510px; /*es el ancho de ese elemento*/ 
+    width: 50%; /*es el ancho de ese elemento*/ 
     display: flex;
     flex-direction: column;
     gap:40px;
@@ -91,13 +93,14 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 32px;
+    
 
 
 }
 
 .presentacion__enlaces_link{
     
-    width: 378px;
+    width: 50%;
     text-align: center;
     border: 3px solid;
     border-color: var(--color-terciario);
@@ -110,12 +113,16 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
     
 }
 
 .presentacion__enlaces_link:hover{
     background-color: var(--color-hover);
+}
+
+.Presentacion__imagen{
+    width: 50%; /*ocupara el 50% relativo a las medidas del body o elemento padre*/
 }
 
 
