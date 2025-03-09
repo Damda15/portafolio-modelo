@@ -167,3 +167,12 @@ body{
 
     color: var(--color-hover);
 }
+
+@media(max-width:1200px){
+
+    .container-presentacion{
+        flex-direction: column-reverse ;
+    }
+
+}
+
