@@ -141,13 +141,12 @@ body{
     padding-top: 2%;
     padding-right: 0%;
     padding-bottom: 0%;
-    padding-left: 8%;
+    padding-left: 15%;
 
 }
 
 .Header__menu {
     display: flex;
-    /*justify-content: center;*/
    align-items: center;
    gap: 80px;
 }
@@ -170,9 +169,32 @@ body{
 
 @media(max-width:1200px){
 
+    .Header {
+        padding:10%;
+    }
+
+    .Header__menu{
+        justify-content: center;
+    }
     .container-presentacion{
         flex-direction: column-reverse ;
+        gap: 80px;
     }
 
 }
 
+@media(max-width:1023px){
+
+    .Header {
+        padding:10%;
+    }
+
+    .Header__menu{
+        justify-content: center;
+    }
+    .container-presentacion{
+        flex-direction: column-reverse ;
+        gap: 80px;
+    }
+
+}
